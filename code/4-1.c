@@ -2,25 +2,19 @@
 
 int main()
 {
-    int num1;
-    int num2;
+    int a, b;
     char op;
-    scanf("%d %d %c", &num1, &num2, &op);
-    switch (op){
-        case '+':
-            printf("%d",num1+num2);
-            break;
-        case '-':
-            printf("%d",num1-num2);
-            break;
-        case '*':
-            printf("%d",num1*num2);
-            break;
-        case '/':
-            printf("%d",num1/num2);
-            break;
-    }
 
-    
+    scanf("%d %d %c", &a, &b, &op);
+
+    if (op == '+')
+        printf("%d\n", a + b);
+    else if (op == '-')
+        printf("%d\n", a - b);
+    else if (op == '*')
+        printf("%d\n", a * b);
+    else if (op == '/')
+        printf("%d\n", a / b);
+
     return 0;
 }

@@ -13,8 +13,8 @@ int main()
     double d = 0.3;
 
     printf("c = %.100f\n", c);
-    printf("d = %100f\n", d);
-    printf("c == d is %d\n, c == d");
+    printf("d = %.100f\n", d);
+    printf("c == d is %d\n", c == d);
 
     return 0;
 }

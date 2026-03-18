@@ -2,15 +2,10 @@
 
 int main()
 {
-    int a = -1;
-    unsigned int b = 1;
+    char a = 'a';
+    char b = 'b';
 
-    if (a < b) {
-        printf("a < b\n");
-    }
-    else {
-        printf("a >= b ???\n");
-    }
+    printf("sizeof(a + b) is : %u\n", sizeof(a + b));
 
     return 0;
 }

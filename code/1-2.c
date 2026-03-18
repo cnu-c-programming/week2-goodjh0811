@@ -1,23 +1,8 @@
 #include <stdio.h>
-int main()
-{
-    printf("     % 5s ","name");
-    printf("%10s","id");
-    printf("      % 5s","value\n");
-
-    printf("     % 5s ","kim");
-    printf("%010d",12);
-    printf("      % 5.2f\n",4.120000);
-
-    printf("     % 5s ","lee");
-    printf("%010d",1922);
-    printf("      % 5.2f\n",3.210000);
-
-    printf("     % 5s ","park");
-    printf("%010d",432);
-    printf("      % 5.2f\n",1.000000);
-
+int main(){
+    printf("%10s%10s%10s\n", "name", "id", "value");
+    printf("%10s%010d%10.2f\n", "kim", 12, 4.12);
+    printf("%10s%010d%10.2f\n", "lee", 1922, 3.21);
+    printf("%10s%010d%10.2f\n", "park", 432, 1.0);
     
-
     return 0;
-}
